@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flow Nutrition — Suplementos Deportivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#" class="nav__logo">Flow <span>Nutrition</span></a>
+    <ul class="nav__links">
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#beneficios">¿Por qué Flow?</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://wa.me/56998423845" target="_blank" rel="noopener" class="btn btn--outline">Pedir por WhatsApp</a>
+    <button class="nav__burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Suplementación — Santiago, Chile</p>
+      <h1 class="hero__title">Ingredientes<br />que <em>funcionan</em>.</h1>
+      <p class="hero__desc">
+        Fórmulas limpias. Dosis efectivas. Sin rellenos. Cada producto está respaldado por evidencia y formulado para rendir.
+      </p>
+      <div class="hero__ctas">
+        <a href="https://wa.me/56998423845" target="_blank" rel="noopener" class="btn btn--primary">Pedir ahora</a>
+        <a href="#productos" class="btn btn--ghost">Ver productos</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__circle"></div>
+      <div class="hero__badge">
+        <span class="hero__badge-num">6</span>
+        <span class="hero__badge-text">Productos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRIP -->
+  <div class="strip">
+    <div class="strip__inner">
+      <span>Dosis clínicas</span>
+      <span class="strip__dot">·</span>
+      <span>Sin rellenos</span>
+      <span class="strip__dot">·</span>
+      <span>Etiqueta transparente</span>
+      <span class="strip__dot">·</span>
+      <span>Delivery en Santiago</span>
+      <span class="strip__dot">·</span>
+      <span>@flow.nutrition.cl</span>
+    </div>
+  </div>
+
+  <!-- PRODUCTOS -->
+  <section class="productos" id="productos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Línea completa</p>
+        <h2 class="section-title">Nuestros productos</h2>
+        <p class="section-desc">Cada fórmula diseñada para un objetivo concreto. Sin compromisos en ingredientes ni en dosis.</p>
+      </div>
+      <div class="productos__grid">
+
+        <div class="card">
+          <div class="card__img-wrap card__img-wrap--1">
+            <div class="card__img-icon">⚡</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Fuerza · Rendimiento</p>
+            <h3 class="card__name">Creatina FNL</h3>
+            <p class="card__desc">Creatina monohidrato micronizada de grado farmacéutico. El suplemento más estudiado en deportes. Sin saborizantes.</p>
+            <div class="card__footer">
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Creatina%20FNL" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--featured">
+          <div class="card__badge-featured">Vegano</div>
+          <div class="card__img-wrap card__img-wrap--2">
+            <div class="card__img-icon">🌱</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Proteína vegana</p>
+            <h3 class="card__name">ProBASE</h3>
+            <p class="card__desc">Proteína de guisante + arroz integral. Perfil de aminoácidos completo, alta digestibilidad, sin lactosa.</p>
+            <div class="card__footer">
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20ProBASE" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img-wrap card__img-wrap--3">
+            <div class="card__img-icon">🍄</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Pre-entreno</p>
+            <h3 class="card__name">Funghi</h3>
+            <p class="card__desc">Pre-entreno con extracto de Cordyceps y Cafeína natural. Energía sostenida y foco sin el crash post-estimulante.</p>
+            <div class="card__footer">
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Funghi" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img-wrap card__img-wrap--4">
+            <div class="card__img-icon">💎</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Recuperación · Sueño</p>
+            <h3 class="card__name">Magnesio Bisglicinato</h3>
+            <p class="card__desc">La forma de magnesio con mayor biodisponibilidad. Reduce calambres, mejora el sueño y acelera la recuperación muscular.</p>
+            <div class="card__footer">
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Magnesio%20Bisglicinato" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img-wrap card__img-wrap--5">
+            <div class="card__img-icon">☀️</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Vitaminas · Hormonas</p>
+            <h3 class="card__name">Vitamina D3</h3>
+            <p class="card__desc">D3 con K2 para máxima absorción. Esencial para función muscular, sistema inmune y regulación hormonal en deportistas.</p>
+            <div class="card__footer">
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Vitamina%20D3" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img-wrap card__img-wrap--6">
+            <div class="card__img-icon">🧠</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Adaptógeno · Nootropic</p>
+            <h3 class="card__name">Melena de León</h3>
+            <p class="card__desc">Hericium erinaceus estandarizado. Estimula la producción de NGF, mejora foco y claridad mental. Sin cafeína.</p>
+            <div class="card__footer">
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Melena%20de%20León" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="beneficios" id="beneficios">
+    <div class="container">
+      <div class="beneficios__inner">
+        <div class="beneficios__left">
+          <p class="section-eyebrow section-eyebrow--light">¿Por qué Flow?</p>
+          <h2 class="section-title section-title--light">Ciencia detrás<br />de cada dosis.</h2>
+          <p class="section-desc section-desc--light">
+            No exageramos resultados. Cada ingrediente está en rango clínico efectivo y la etiqueta lo dice sin letra chica.
+          </p>
+          <a href="https://wa.me/56998423845" target="_blank" rel="noopener" class="btn btn--cream">Consultar por WhatsApp</a>
+        </div>
+        <div class="beneficios__right">
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Dosis clínicas reales</h4>
+              <p>Cada ingrediente en la cantidad que la evidencia señala como efectiva, no cantidades de marketing.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Etiqueta transparente</h4>
+              <p>Sin fórmulas propietarias. Sabes exactamente qué consumes y en qué cantidad.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Sin ingredientes innecesarios</h4>
+              <p>Sin colorantes, sin saborizantes artificiales, sin rellenos de bajo costo.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Delivery en Santiago</h4>
+              <p>Pedidos por WhatsApp o Instagram. Despacho rápido dentro de la Región Metropolitana.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Comunidad</p>
+        <h2 class="section-title">Lo que dicen<br />quienes usan Flow</h2>
+      </div>
+      <div class="testimonios__grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Funghi es el mejor pre-entreno que he probado. Sin hormigueo, sin crash. La energía dura toda la sesión."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">CP</div>
+            <div>
+              <strong>Camila P.</strong>
+              <span>CrossFit · Santiago</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-card--alt">
+          <div class="testi-stars">★★★★★</div>
+          <p>"ProBASE es la única proteína vegana que me ha gustado de verdad. Sin ese sabor artificial que odio."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MR</div>
+            <div>
+              <strong>Matías R.</strong>
+              <span>Corredor · Providencia</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"El Magnesio Bisglicinato cambió mi sueño. Me despierto sin la fatiga acumulada. Lo recomiendo a todos."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">VL</div>
+            <div>
+              <strong>Valentina L.</strong>
+              <span>Triatleta · Las Condes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="contacto__inner">
+        <div class="contacto__info">
+          <p class="section-eyebrow">Contacto</p>
+          <h2 class="section-title">¿Tienes<br />preguntas?</h2>
+          <p class="section-desc">Respondemos por WhatsApp e Instagram. Delivery en Santiago, Región Metropolitana.</p>
+          <div class="contacto__details">
+            <div class="contact-row">
+              <span class="contact-icon">📍</span>
+              <span>Santiago, Región Metropolitana</span>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">📸</span>
+              <a href="https://instagram.com/flow.nutrition.cl" target="_blank" rel="noopener">@flow.nutrition.cl</a>
+            </div>
+          </div>
+        </div>
+        <div class="contacto__cta-panel">
+          <p class="contacto__cta-text">Escríbenos directamente para hacer tu pedido, resolver dudas sobre productos o armar un stack según tus objetivos.</p>
+          <a href="https://wa.me/56998423845" target="_blank" rel="noopener" class="btn btn--primary btn--full btn--lg">
+            Escribir por WhatsApp
+          </a>
+          <a href="https://instagram.com/flow.nutrition.cl" target="_blank" rel="noopener" class="btn btn--outline btn--full">
+            Ver en Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">Flow <span>Nutrition</span></a>
+          <p>Suplementación honesta.<br />Santiago, Chile.</p>
+        </div>
+        <nav class="footer__nav">
+          <div class="footer__col">
+            <strong>Productos</strong>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Creatina%20FNL">Creatina FNL</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20ProBASE">ProBASE</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Funghi">Funghi</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Magnesio%20Bisglicinato">Magnesio Bisglicinato</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Vitamina%20D3">Vitamina D3</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Melena%20de%20León">Melena de León</a>
+          </div>
+          <div class="footer__col">
+            <strong>Canales</strong>
+            <a href="https://wa.me/56998423845" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://instagram.com/flow.nutrition.cl" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Flow Nutrition · Santiago, Chile</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
