@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flow Nutrition — Suplementos Deportivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PROGRESS BAR -->
+  <div id="pb"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo">Flow <span>Nutrition</span></a>
+    <ul class="nav__links">
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#packs">Packs</a></li>
+      <li><a href="#beneficios">¿Por qué Flow?</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://wa.me/56998423845?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20con%20la%20nutricionista%20sobre%20qu%C3%A9%20suplementos%20tomar" target="_blank" rel="noopener" class="btn btn--outline">Consulta gratuita</a>
+    <button class="nav__burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Suplementación — Santiago, Chile</p>
+      <h1 class="hero__title">Ingredientes<br />que <em>funcionan</em>.</h1>
+      <p class="hero__desc">
+        Fórmulas limpias. Dosis efectivas. Sin rellenos. Cada producto está respaldado por evidencia y formulado para rendir.
+      </p>
+      <div class="hero__ctas">
+        <a href="https://wa.me/56998423845?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20con%20la%20nutricionista%20sobre%20qu%C3%A9%20suplementos%20tomar" target="_blank" rel="noopener" class="btn btn--primary">Hablar con la nutricionista</a>
+        <a href="#productos" class="btn btn--ghost">Ver productos</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__circle">
+        <img src="images/lifestyle-estudio.jpg" alt="Persona enfocada estudiando con suplementos Flow Nutrition" class="hero__lifestyle-img" />
+      </div>
+      <div class="hero__badge">
+        <span class="hero__badge-num">5</span>
+        <span class="hero__badge-text">Productos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRIP -->
+  <div class="strip">
+    <div class="strip__inner">
+      <span>Dosis clínicas</span>
+      <span class="strip__dot">·</span>
+      <span>Sin rellenos</span>
+      <span class="strip__dot">·</span>
+      <span>Etiqueta transparente</span>
+      <span class="strip__dot">·</span>
+      <span>Delivery en Santiago</span>
+      <span class="strip__dot">·</span>
+      <span>@flow.nutrition.cl</span>
+    </div>
+  </div>
+
+  <!-- PRODUCTOS -->
+  <section class="productos" id="productos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Línea completa</p>
+        <h2 class="section-title">Nuestros productos</h2>
+        <p class="section-desc">Cada fórmula diseñada para un objetivo concreto. Sin compromisos en ingredientes ni en dosis.</p>
+      </div>
+      <div class="productos__grid">
+
+        <div class="card" data-product="creatina">
+          <div class="card__img-wrap card__img-wrap--1">
+            <img src="images/creatina-fnl.jpg" alt="Creatina Monohydrate FNL" class="card__img" />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Fuerza · Rendimiento</p>
+            <h3 class="card__name">Creatina FNL</h3>
+            <p class="card__desc">No es solo para el gym. La creatina mejora tu fuerza, tu potencia y — lo que pocos saben — también tu rendimiento mental.</p>
+            <p class="card__price">$18.990</p>
+            <div class="card__footer">
+              <button class="btn btn--ghost btn--sm card__ver-mas">Ver más</button>
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Creatina%20FNL" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--featured" data-product="probase">
+          <div class="card__badge-featured">Vegano</div>
+          <div class="card__img-wrap card__img-wrap--2">
+            <div class="card__img-icon">🌱</div>
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Proteína vegana</p>
+            <h3 class="card__name">ProBASE</h3>
+            <p class="card__desc">Proteína vegetal que sí rinde. Perfil de aminoácidos completo, sin lactosa ni saborizantes artificiales.</p>
+            <div class="card__footer">
+              <button class="btn btn--ghost btn--sm card__ver-mas">Ver más</button>
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20ProBASE" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-product="magnesio">
+          <div class="card__img-wrap card__img-wrap--4">
+            <img src="images/magnesio-bisglicinato.jpg" alt="Magnesio Bisglicinato FNL — 60 Cápsulas Vegetales" class="card__img" />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Recuperación · Sueño</p>
+            <h3 class="card__name">Magnesio Bisglicinato</h3>
+            <p class="card__desc">¿Calambres, mal sueño o cansancio constante? El bisglicinato es la forma de magnesio que tu cuerpo absorbe de verdad.</p>
+            <p class="card__price">$8.990</p>
+            <div class="card__footer">
+              <button class="btn btn--ghost btn--sm card__ver-mas">Ver más</button>
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Magnesio%20Bisglicinato" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-product="vitamina">
+          <div class="card__img-wrap card__img-wrap--5">
+            <img src="images/vitamina-d3.jpg" alt="Vitamina D3 FNL — 90 Cápsulas" class="card__img" />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Vitaminas · Inmunidad</p>
+            <h3 class="card__name">Vitamina D3</h3>
+            <p class="card__desc">El déficit que casi nadie detecta. Base silenciosa para tu inmunidad, tus huesos y tu estado de ánimo.</p>
+            <p class="card__price">$5.990</p>
+            <div class="card__footer">
+              <button class="btn btn--ghost btn--sm card__ver-mas">Ver más</button>
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Vitamina%20D3" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-product="melena">
+          <div class="card__img-wrap card__img-wrap--6">
+            <img src="images/melena-de-leon.jpg" alt="Melena de León FNL — 90 Cápsulas" class="card__img" />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Adaptógeno · Nootropic</p>
+            <h3 class="card__name">Melena de León</h3>
+            <p class="card__desc">El hongo que la ciencia estudia por su impacto en el cerebro. Foco, memoria y claridad mental — sin estimulantes.</p>
+            <p class="card__price">$8.990</p>
+            <div class="card__footer">
+              <button class="btn btn--ghost btn--sm card__ver-mas">Ver más</button>
+              <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Melena%20de%20Le%C3%B3n" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKS -->
+  <section class="packs" id="packs">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Combinaciones recomendadas</p>
+        <h2 class="section-title">Packs Flow Nutrition</h2>
+        <p class="section-desc">Fórmulas pensadas para potenciarse mutuamente. Mejor resultado, precio especial.</p>
+      </div>
+
+      <div class="pack-featured">
+        <div class="pack-featured__img">
+          <img src="images/pack-recovery.jpg" alt="Pack Recovery — Creatina + Magnesio Bisglicinato" />
+        </div>
+        <div class="pack-featured__body">
+          <span class="pack-badge">Pack destacado</span>
+          <h3 class="pack-name">Pack Recovery</h3>
+          <p class="pack-tagline">Día: rindes mejor. Noche: recuperas mejor.</p>
+          <ul class="pack-items">
+            <li>Creatina Monohidratada 300g</li>
+            <li>Magnesio Bisglicinato 60 cápsulas</li>
+          </ul>
+          <p class="pack-desc">La creatina sostiene tu intensidad en el entrenamiento. El magnesio apoya la relajación muscular y el descanso nocturno. Juntos forman una rutina sostenible.</p>
+          <div class="pack-price">$26.990</div>
+          <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20el%20Pack%20Recovery%20%E2%80%94%20Creatina%20%2B%20Magnesio%20%E2%80%94%20%2426.990" target="_blank" rel="noopener" class="btn btn--primary">Pedir Pack Recovery</a>
+        </div>
+      </div>
+
+      <div class="packs__grid">
+        <div class="pack-card">
+          <h4 class="pack-card__name">Pack Bienestar</h4>
+          <p class="pack-card__tagline">Para tu cuerpo y tu mente.</p>
+          <ul class="pack-card__items">
+            <li>Magnesio Bisglicinato</li>
+            <li>Melena de León</li>
+            <li>Vitamina D3</li>
+          </ul>
+          <p class="pack-card__for"><strong>Ideal para:</strong> Estrés, insomnio leve o quienes quieren mejorar su bienestar mental junto con el físico.</p>
+          <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20consultar%20el%20Pack%20Bienestar%20%E2%80%94%20Magnesio%20%2B%20Melena%20de%20Le%C3%B3n%20%2B%20Vitamina%20D3" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Consultar</a>
+        </div>
+        <div class="pack-card">
+          <h4 class="pack-card__name">Pack Rendimiento</h4>
+          <p class="pack-card__tagline">Entrena más. Rinde más.</p>
+          <ul class="pack-card__items">
+            <li>Creatina Monohidratada</li>
+            <li>Funghi Pre-Workout</li>
+            <li>Vitamina D3</li>
+          </ul>
+          <p class="pack-card__for"><strong>Ideal para:</strong> Fútbol, trail, gym — deportistas de alta intensidad que buscan maximizar su rendimiento.</p>
+          <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20consultar%20el%20Pack%20Rendimiento%20%E2%80%94%20Creatina%20%2B%20Funghi%20%2B%20Vitamina%20D3" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Consultar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="beneficios" id="beneficios">
+    <div class="container">
+      <div class="beneficios__inner">
+        <div class="beneficios__left">
+          <p class="section-eyebrow section-eyebrow--light">¿Por qué Flow?</p>
+          <h2 class="section-title section-title--light">Una nutricionista<br />detrás de cada<br /><em>recomendación.</em></h2>
+          <p class="section-desc section-desc--light">
+            No vendemos suplementos al azar. Cada cliente puede consultar directamente con nuestra nutricionista para saber qué tomar, cuándo y por qué — sin costo adicional.
+          </p>
+          <a href="https://wa.me/56998423845?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20con%20la%20nutricionista%20sobre%20suplementaci%C3%B3n" target="_blank" rel="noopener" class="btn btn--cream">Hablar con la nutricionista</a>
+        </div>
+        <div class="beneficios__right">
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Orientación personalizada, gratis</h4>
+              <p>Antes de comprar, nuestra nutricionista te orienta según tu objetivo, tu rutina y tu estilo de vida. Sin compromiso.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Dosis clínicas reales</h4>
+              <p>Cada ingrediente en la cantidad que la evidencia señala como efectiva. No cantidades de marketing.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Etiqueta transparente</h4>
+              <p>Sin fórmulas propietarias. Sabes exactamente qué consumes, en qué cantidad y por qué está ahí.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">✦</div>
+            <div>
+              <h4>Sin ingredientes innecesarios</h4>
+              <p>Sin colorantes, sin saborizantes artificiales, sin rellenos. Solo lo que necesitas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="contacto__inner">
+        <div class="contacto__info">
+          <p class="section-eyebrow">Consulta gratuita</p>
+          <h2 class="section-title">¿No sabes<br />por dónde<br /><em>empezar?</em></h2>
+          <p class="section-desc">Escríbenos y nuestra nutricionista te arma un stack personalizado según tu objetivo, sin costo y sin compromiso. Es parte de lo que nos diferencia.</p>
+          <div class="contacto__details">
+            <div class="contact-row">
+              <span class="contact-icon">📍</span>
+              <span>Santiago, Región Metropolitana</span>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">📸</span>
+              <a href="https://instagram.com/flow.nutrition.cl" target="_blank" rel="noopener">@flow.nutrition.cl</a>
+            </div>
+          </div>
+          <div class="contacto__ctas">
+            <a href="https://wa.me/56998423845?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20con%20la%20nutricionista%20sobre%20qu%C3%A9%20suplementos%20tomar" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Hablar con la nutricionista</a>
+            <a href="https://instagram.com/flow.nutrition.cl" target="_blank" rel="noopener" class="btn btn--outline">Ver en Instagram</a>
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="faq-item">
+            <div class="faq-q">¿Puedo consultar con la nutricionista antes de comprar? <span class="faq-icon">+</span></div>
+            <div class="faq-a"><div class="faq-a-inner">Sí, y es gratis. Escríbenos por WhatsApp, cuéntanos tu objetivo y nuestra nutricionista te orienta sin compromiso. Es parte del servicio de Flow.</div></div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">¿Cómo sé qué suplementos me convienen? <span class="faq-icon">+</span></div>
+            <div class="faq-a"><div class="faq-a-inner">No hay una respuesta única. Por eso existe la consulta: la nutricionista evalúa tu rutina, tu alimentación y tu objetivo para recomendarte solo lo que tiene sentido para ti.</div></div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">¿Hacen despacho a domicilio? <span class="faq-icon">+</span></div>
+            <div class="faq-a"><div class="faq-a-inner">Sí, hacemos entregas en Santiago. El costo depende de tu comuna — te lo confirmamos al hacer el pedido.</div></div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">¿Hacen seguimiento después de la compra? <span class="faq-icon">+</span></div>
+            <div class="faq-a"><div class="faq-a-inner">Sí. Te avisamos cuando sea hora de reponer y puedes volver a consultar cuando quieras. La relación no termina con la venta.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">Flow <span>Nutrition</span></a>
+          <p>Suplementación honesta.<br />Santiago, Chile.</p>
+        </div>
+        <nav class="footer__nav">
+          <div class="footer__col">
+            <strong>Productos</strong>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Creatina%20FNL">Creatina FNL</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20ProBASE">ProBASE</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Funghi">Funghi</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Magnesio%20Bisglicinato">Magnesio Bisglicinato</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Vitamina%20D3">Vitamina D3</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20Melena%20de%20León">Melena de León</a>
+          </div>
+          <div class="footer__col">
+            <strong>Packs</strong>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20pedir%20el%20Pack%20Recovery%20%E2%80%94%20Creatina%20%2B%20Magnesio">Pack Recovery</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20consultar%20el%20Pack%20Bienestar">Pack Bienestar</a>
+            <a href="https://wa.me/56998423845?text=Hola!%20Quiero%20consultar%20el%20Pack%20Rendimiento">Pack Rendimiento</a>
+          </div>
+          <div class="footer__col">
+            <strong>Canales</strong>
+            <a href="https://wa.me/56998423845" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://instagram.com/flow.nutrition.cl" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Flow Nutrition · Santiago, Chile</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL PRODUCTO -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal__close" id="modalClose" aria-label="Cerrar">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 1l16 16M17 1L1 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal__img-col" id="modalImgCol">
+        <img class="modal__img" id="modalImg" src="" alt="" />
+        <div class="modal__img-icon" id="modalImgIcon"></div>
+      </div>
+      <div class="modal__body">
+        <p class="modal__tag" id="modalTag"></p>
+        <h2 class="modal__name" id="modalName"></h2>
+
+        <div class="modal__section">
+          <h4 class="modal__section-title">¿Qué es y para qué sirve?</h4>
+          <p class="modal__intro" id="modalIntro"></p>
+        </div>
+
+        <div class="modal__section">
+          <h4 class="modal__section-title">Beneficios con evidencia</h4>
+          <ul class="modal__benefits" id="modalBenefits"></ul>
+        </div>
+
+        <div class="modal__dato" id="modalDato">
+          <span class="modal__dato-label">Dato clave Flow</span>
+          <p id="modalDatoText"></p>
+        </div>
+
+        <div class="modal__seal">
+          <p>En Flow Nutrition no vendemos humo. Seleccionamos ingredientes con respaldo científico y te entregamos información clara para que tomes mejores decisiones.</p>
+        </div>
+
+        <a class="btn btn--primary btn--full modal__cta" id="modalCta" href="#" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- WA FLOAT -->
+  <a href="https://wa.me/56998423845?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20con%20la%20nutricionista%20sobre%20qu%C3%A9%20suplementos%20tomar" target="_blank" rel="noopener" class="wa-float" aria-label="Consulta con la nutricionista">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>Consulta gratis</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
